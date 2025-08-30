@@ -1,4 +1,5 @@
 def display_menu():
+    print("Shopping List Manager")
     print("1. Add Item")
     print("2. Remove Item")
     print("3. View List")
@@ -23,8 +24,8 @@ def main():
                 print("Item not found")
 
         elif choice == '3':
-            for i in shopping_list:
-                print(i)
+            for item in shopping_list:
+                print(item)
 
         elif choice == '4':
             break
@@ -34,6 +35,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
